@@ -6,7 +6,7 @@
 with open("names.txt", 'r', encoding='utf-8') as names_file:
 
     # open body.txt for reading
-    with open("body.txt", 'r', encoding='utf-8') as body_file:
+    with open("body.txt", 'x', encoding='utf-8') as body_file:
 
         # read entire content of the body
         body = body_file.read()
